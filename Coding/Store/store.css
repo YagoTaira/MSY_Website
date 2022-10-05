@@ -1,0 +1,137 @@
+.wrapper{
+	
+}
+
+.logo{
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    
+}
+img:hover{
+  box-shadow: none;
+}
+.title{
+	background-color: white;
+	float: left;
+	width: 85%;
+	height: 160px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+/*changes font size of h1*/
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+/* adds margin to each row*/
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding */
+.row,
+.row > .column {
+  padding: 12px;
+}
+
+/* Create four  columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.price{
+ color: red;
+ display: inline;
+}
+.sale{
+ color: red;
+ text-decoration: line-through;
+ display: inline;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px red;
+}
+
+img {
+  border: 1px solid #ddd; 
+  border-radius: 4px;  
+  padding: 5px; 
+  width: 150px; 
+}
+.col-sm-3{
+  background-color: rgb(68, 65, 65);
+}
+.logo{
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 50px;
+  
+}
+.logoimg{
+  box-shadow: none !important;
+}
+
+.navcolor{
+  color:#13b6ec;
+  float:none !important; 
+  text-align: center;
+  vertical-align: middle;
+
+}
+.navcolor:hover{
+  color: #13b6ec;
+}
+
+
+
